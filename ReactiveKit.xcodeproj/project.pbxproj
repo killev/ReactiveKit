@@ -62,6 +62,8 @@
 		16F2F56D1D6D924B00B85896 /* SignalProtocol+Arities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F2F56B1D6D924B00B85896 /* SignalProtocol+Arities.swift */; };
 		16F2F56E1D6D924B00B85896 /* SignalProtocol+Arities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F2F56B1D6D924B00B85896 /* SignalProtocol+Arities.swift */; };
 		16F2F56F1D6D924B00B85896 /* SignalProtocol+Arities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F2F56B1D6D924B00B85896 /* SignalProtocol+Arities.swift */; };
+		D04E2B9821BAC41800F4C8F7 /* SignalProtocol+With.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04E2B9721BAC41800F4C8F7 /* SignalProtocol+With.swift */; };
+		D04E2B9B21BAC4D500F4C8F7 /* SignalWithTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04E2B9921BAC46A00F4C8F7 /* SignalWithTests.swift */; };
 		EC06A8711DBBF8C7006AEA81 /* ResultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC06A86F1DBBF8A6006AEA81 /* ResultTests.swift */; };
 		EC31EE0D1E7BF97C00857946 /* Deallocatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31EE0C1E7BF97C00857946 /* Deallocatable.swift */; };
 		EC31EE0E1E7BF97C00857946 /* Deallocatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31EE0C1E7BF97C00857946 /* Deallocatable.swift */; };
@@ -123,6 +125,8 @@
 		16C33B241BEFBA0100A0DBE0 /* ReactiveKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReactiveKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		16F2F5661D6D8A4500B85896 /* Lock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Lock.swift; path = Sources/Lock.swift; sourceTree = SOURCE_ROOT; };
 		16F2F56B1D6D924B00B85896 /* SignalProtocol+Arities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "SignalProtocol+Arities.swift"; path = "Sources/SignalProtocol+Arities.swift"; sourceTree = SOURCE_ROOT; };
+		D04E2B9721BAC41800F4C8F7 /* SignalProtocol+With.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SignalProtocol+With.swift"; sourceTree = "<group>"; };
+		D04E2B9921BAC46A00F4C8F7 /* SignalWithTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalWithTests.swift; sourceTree = "<group>"; };
 		EC06A86F1DBBF8A6006AEA81 /* ResultTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultTests.swift; sourceTree = "<group>"; };
 		EC31EE0C1E7BF97C00857946 /* Deallocatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Deallocatable.swift; path = Sources/Deallocatable.swift; sourceTree = SOURCE_ROOT; };
 		EC4C28111E167EED0055D256 /* Typealiases.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Typealiases.swift; path = Sources/Typealiases.swift; sourceTree = SOURCE_ROOT; };
@@ -237,6 +241,7 @@
 				EC4C28111E167EED0055D256 /* Typealiases.swift */,
 				EC966F1E204B43FA0016B4FC /* LoadingSignal.swift */,
 				EC966F19204B43DF0016B4FC /* LoadingProperty.swift */,
+				D04E2B9721BAC41800F4C8F7 /* SignalProtocol+With.swift */,
 				ECD102FB1D89B2530086B6A1 /* Tests */,
 			);
 			path = ReactiveKit;
@@ -259,6 +264,7 @@
 				ECD102FE1D89B2530086B6A1 /* SignalTests.swift */,
 				EC6C0FC51DB4A76A00C3880B /* PropertyTests.swift */,
 				EC06A86F1DBBF8A6006AEA81 /* ResultTests.swift */,
+				D04E2B9921BAC46A00F4C8F7 /* SignalWithTests.swift */,
 			);
 			path = ReactiveKitTests;
 			sourceTree = "<group>";
@@ -571,6 +577,7 @@
 				EC8706671D3CDDAA0068B589 /* Property.swift in Sources */,
 				EC31EE0D1E7BF97C00857946 /* Deallocatable.swift in Sources */,
 				EC966F1F204B43FA0016B4FC /* LoadingSignal.swift in Sources */,
+				D04E2B9821BAC41800F4C8F7 /* SignalProtocol+With.swift in Sources */,
 				16F2F5671D6D8A4500B85896 /* Lock.swift in Sources */,
 				EC8706661D3CDCE10068B589 /* Bindable.swift in Sources */,
 				16F2F56C1D6D924B00B85896 /* SignalProtocol+Arities.swift in Sources */,
@@ -599,6 +606,7 @@
 				ECD103001D89B2530086B6A1 /* SignalTests.swift in Sources */,
 				EC06A8711DBBF8C7006AEA81 /* ResultTests.swift in Sources */,
 				EC6C0FC71DB4A78E00C3880B /* PropertyTests.swift in Sources */,
+				D04E2B9B21BAC4D500F4C8F7 /* SignalWithTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

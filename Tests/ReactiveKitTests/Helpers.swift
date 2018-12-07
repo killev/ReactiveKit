@@ -25,6 +25,10 @@ extension Event {
         return left == right
       } else if let left = left as? (Int?, Int), let right = right as? (Int?, Int) {
         return left.0 == right.0 && left.1 == right.1
+      } else if let left = left as? (Int, Int, Int), let right = right as? (Int, Int, Int) {
+        return left.0 == right.0 && left.1 == right.1 && left.2 == right.2
+      } else if let left = left as? (Int, Int, Int, Int), let right = right as? (Int, Int, Int, Int) {
+        return left.0 == right.0 && left.1 == right.1 && left.2 == right.2 && left.3 == right.3
       } else if let left = left as? String, let right = right as? String {
         return left == right
       } else if let left = left as? [String], let right = right as? [String] {
